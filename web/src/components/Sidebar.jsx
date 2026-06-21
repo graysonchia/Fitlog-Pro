@@ -7,6 +7,7 @@ const navItems = [
   { to: "/nutrition", label: "Nutrition" },
   { to: "/retention", label: "Retention" },
   { to: "/users", label: "Users" },
+  { to: "/ml-insights", label: "🧠 ML Insights" },
 ];
 
 export default function Sidebar() {

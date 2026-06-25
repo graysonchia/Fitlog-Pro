@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar.jsx";
+import MLInsights from "./pages/MLInsights.jsx";
 import Nutrition from "./pages/Nutrition.jsx";
 import Overview from "./pages/Overview.jsx";
 import Retention from "./pages/Retention.jsx";
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/nutrition" element={<Nutrition />} />
             <Route path="/retention" element={<Retention />} />
             <Route path="/users" element={<Users />} />
+            <Route path="/ml-insights" element={<MLInsights />} />
           </Routes>
         </main>
       </div>

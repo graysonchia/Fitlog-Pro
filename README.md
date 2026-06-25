@@ -1,3 +1,5 @@
+![FitLog Pro analytics dashboard](docs/assets/dashboard.png)
+
 # FitLog Pro
 
 FitLog Pro is a full-stack workout and nutrition tracker portfolio project. It includes a FastAPI backend, PostgreSQL analytics-ready schema, seeded demo data, Jupyter analysis notebook, Expo mobile app, and React web analytics dashboard.
